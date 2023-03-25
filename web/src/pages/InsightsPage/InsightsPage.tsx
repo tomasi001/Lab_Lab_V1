@@ -8,11 +8,19 @@ const InsightsPage = () => {
 
       <h1>InsightsPage</h1>
       <p>
-        Find me in <code>./web/src/pages/InsightsPage/InsightsPage.tsx</code>
+        Back to <Link to={routes.home()}>home</Link>
       </p>
       <p>
-        My default route is named <code>insights</code>, link to me with `
-        <Link to={routes.insights()}>Insights</Link>`
+        <Link to={routes.patterns()}>Patterns</Link>
+      </p>
+      <p>
+        <Link to={routes.narratives()}>Narratives</Link>
+      </p>
+      <p>
+        <Link to={routes.wordCloud()}>Word Cloud</Link>
+      </p>
+      <p>
+        <Link to={routes.pinned()}>Pinned</Link>
       </p>
     </>
   )

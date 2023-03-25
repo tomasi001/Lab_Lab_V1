@@ -8,11 +8,7 @@ const PinnedPage = () => {
 
       <h1>PinnedPage</h1>
       <p>
-        Find me in <code>./web/src/pages/PinnedPage/PinnedPage.tsx</code>
-      </p>
-      <p>
-        My default route is named <code>pinned</code>, link to me with `
-        <Link to={routes.pinned()}>Pinned</Link>`
+        Back to <Link to={routes.insights()}>insights</Link>
       </p>
     </>
   )

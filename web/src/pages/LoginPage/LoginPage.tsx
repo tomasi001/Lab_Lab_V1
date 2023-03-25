@@ -6,13 +6,12 @@ const LoginPage = () => {
     <>
       <MetaTags title="Login" description="Login page" />
 
-      <h1>LoginPage</h1>
+      <h1>Login</h1>
       <p>
-        Find me in <code>./web/src/pages/LoginPage/LoginPage.tsx</code>
+        Back to <Link to={routes.landing()}>landing</Link>
       </p>
       <p>
-        My default route is named <code>login</code>, link to me with `
-        <Link to={routes.login()}>Login</Link>`
+        <Link to={routes.home()}>Login</Link>
       </p>
     </>
   )

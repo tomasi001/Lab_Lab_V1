@@ -8,11 +8,10 @@ const SignupPage = () => {
 
       <h1>SignupPage</h1>
       <p>
-        Find me in <code>./web/src/pages/SignupPage/SignupPage.tsx</code>
+        Back to <Link to={routes.landing()}>landing</Link>
       </p>
       <p>
-        My default route is named <code>signup</code>, link to me with `
-        <Link to={routes.signup()}>Signup</Link>`
+        <Link to={routes.verify()}>Signup</Link>
       </p>
     </>
   )

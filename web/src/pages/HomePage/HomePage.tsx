@@ -8,11 +8,19 @@ const HomePage = () => {
 
       <h1>HomePage</h1>
       <p>
-        Find me in <code>./web/src/pages/HomePage/HomePage.tsx</code>
+        <Link to={routes.insights()}>Insights</Link>
       </p>
       <p>
-        My default route is named <code>home</code>, link to me with `
-        <Link to={routes.home()}>Home</Link>`
+        <Link to={routes.viewTextEntry()}>View Text</Link>
+      </p>
+      <p>
+        <Link to={routes.viewVoiceEntry()}>View Voice</Link>
+      </p>
+      <p>
+        <Link to={routes.newTextEntry()}>New Text</Link>
+      </p>
+      <p>
+        <Link to={routes.newVoiceEntry()}>New Voice</Link>
       </p>
     </>
   )

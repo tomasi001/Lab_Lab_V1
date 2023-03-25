@@ -8,11 +8,7 @@ const PatternsPage = () => {
 
       <h1>PatternsPage</h1>
       <p>
-        Find me in <code>./web/src/pages/PatternsPage/PatternsPage.tsx</code>
-      </p>
-      <p>
-        My default route is named <code>patterns</code>, link to me with `
-        <Link to={routes.patterns()}>Patterns</Link>`
+        Back to <Link to={routes.insights()}>insights</Link>
       </p>
     </>
   )

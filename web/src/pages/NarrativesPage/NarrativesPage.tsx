@@ -8,12 +8,7 @@ const NarrativesPage = () => {
 
       <h1>NarrativesPage</h1>
       <p>
-        Find me in{' '}
-        <code>./web/src/pages/NarrativesPage/NarrativesPage.tsx</code>
-      </p>
-      <p>
-        My default route is named <code>narratives</code>, link to me with `
-        <Link to={routes.narratives()}>Narratives</Link>`
+        Back to <Link to={routes.insights()}>insights</Link>
       </p>
     </>
   )

@@ -8,11 +8,7 @@ const WordCloudPage = () => {
 
       <h1>WordCloudPage</h1>
       <p>
-        Find me in <code>./web/src/pages/WordCloudPage/WordCloudPage.tsx</code>
-      </p>
-      <p>
-        My default route is named <code>wordCloud</code>, link to me with `
-        <Link to={routes.wordCloud()}>WordCloud</Link>`
+        Back to <Link to={routes.insights()}>insights</Link>
       </p>
     </>
   )

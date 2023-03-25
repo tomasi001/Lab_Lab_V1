@@ -8,11 +8,10 @@ const VerifyPage = () => {
 
       <h1>VerifyPage</h1>
       <p>
-        Find me in <code>./web/src/pages/VerifyPage/VerifyPage.tsx</code>
+        Back to <Link to={routes.signup()}>signup</Link>
       </p>
       <p>
-        My default route is named <code>verify</code>, link to me with `
-        <Link to={routes.verify()}>Verify</Link>`
+        <Link to={routes.home()}>Verify</Link>
       </p>
     </>
   )

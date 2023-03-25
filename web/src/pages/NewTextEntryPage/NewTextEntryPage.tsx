@@ -8,12 +8,7 @@ const NewTextEntryPage = () => {
 
       <h1>NewTextEntryPage</h1>
       <p>
-        Find me in{' '}
-        <code>./web/src/pages/NewTextEntryPage/NewTextEntryPage.tsx</code>
-      </p>
-      <p>
-        My default route is named <code>newTextEntry</code>, link to me with `
-        <Link to={routes.newTextEntry()}>NewTextEntry</Link>`
+        Back to <Link to={routes.home()}>home</Link>
       </p>
     </>
   )

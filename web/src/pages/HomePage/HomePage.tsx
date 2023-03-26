@@ -11,10 +11,12 @@ const HomePage = () => {
         <Link to={routes.insights()}>Insights</Link>
       </p>
       <p>
-        <Link to={routes.viewTextEntry()}>View Text</Link>
+        {/* TODO: hard coded id below implement dynamic when available */}
+        <Link to={routes.viewTextEntry({ id: 1 })}>View Text</Link>
       </p>
       <p>
-        <Link to={routes.viewVoiceEntry()}>View Voice</Link>
+        {/* TODO: hard coded id below implement dynamic when available */}
+        <Link to={routes.viewVoiceEntry({ id: 1 })}>View Voice</Link>
       </p>
       <p>
         <Link to={routes.newTextEntry()}>New Text</Link>
